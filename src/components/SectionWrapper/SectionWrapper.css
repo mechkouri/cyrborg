@@ -5,10 +5,3 @@
     margin-top: var(--margin-primary);
     color: var(--color-light);
 }
-
-
-.most-popular-items{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
