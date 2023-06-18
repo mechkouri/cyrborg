@@ -1,6 +1,6 @@
 import './App.css';
 import {  Container } from './components/index';
-import { Header, Hero , MostPopular} from './sections/index';
+import { Footer, GamingLibrary, Header, Hero , MostPopular} from './sections/index';
 
 function App() {
   return (
@@ -9,8 +9,9 @@ function App() {
     <Container>
       <Hero />
       <MostPopular />
+      <GamingLibrary />
     </Container>
-    
+    <Footer />
     </>
   );
 }
