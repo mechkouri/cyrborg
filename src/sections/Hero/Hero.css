@@ -20,3 +20,14 @@
     color: var(--color-primary);
     font-style: normal;
 }
+
+@media screen and (max-width: 992px) {
+    .hero-title{
+        font-size: 24px;
+    }
+    .hero-main{
+        border-radius: calc(var(--border-radius-primary)/4);
+        padding: var(--padding-primary) 25px;
+    }
+
+}

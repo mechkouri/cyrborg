@@ -1,5 +1,5 @@
 import './Profile.css'
-import {  MostPopular} from '../../sections/index';
+import {  MostPopular} from '../../sections';
 
 const Profile = () => {
   return (

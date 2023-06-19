@@ -1,8 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import './App.css';
+
+
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import { Home, Profile } from './Pages';
-import {  Container } from './components/index';
-import { Footer, Header} from './sections/index';
+import {  Container } from './components';
+import { Footer, Header} from './sections';
 
 function App() {
   return (

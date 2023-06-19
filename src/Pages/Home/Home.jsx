@@ -1,5 +1,5 @@
 import './Home.css'
-import {  GamingLibrary,  Hero , MostPopular} from '../../sections/index';
+import {  GamingLibrary,  Hero , MostPopular} from '../../sections';
 
 const Home = () => {
   return (

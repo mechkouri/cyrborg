@@ -5,3 +5,10 @@
     margin-top: var(--margin-primary);
     color: var(--color-light);
 }
+
+@media screen and (max-width: 992px) {
+    .section-wrapper{
+        padding:calc(var(--padding-primary)/ 1.2) ;
+        border-radius:calc(var(--border-radius-primary)/2) ;
+    }
+}

@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
-import Navitem, {NavitemDropDown} from '../../components/NavItem/Navitem'
 import { Link } from 'react-router-dom' 
 import './Header.css'
+import { SecondaryButton,Navitem } from '../../components'
 
 const Header = () => {
   return (
@@ -36,7 +36,8 @@ const Header = () => {
         </ul>
         <form className="d-flex">
           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="btn btn-outline-success" type="submit">Search</button>
+          <SecondaryButton className="search-btn">Search</SecondaryButton>
+          
         </form>
       </div>
     </div>

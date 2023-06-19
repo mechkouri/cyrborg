@@ -1,12 +1,12 @@
 import './GamingLibraryCard.css'
-import {SecondaryButton} from '../index';
+import {SecondaryButton} from '../';
 
 
 const GamingLibraryCard = (props) => {
   return (
     <div className="gaming-library-card">
         <ul>
-            <li><img src={props.img} alt="" /></li>
+            <li className='gaming-library-item-image'><img  src={props.img} alt="" /></li>
             <li>
                 <h4>{props.title}</h4>
                 <span>{props.category}</span>

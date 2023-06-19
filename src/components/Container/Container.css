@@ -3,3 +3,11 @@
     background-color: var(--color-darkest);
     border-radius: var(--border-radius-primary);
 }
+
+
+@media screen and (max-width: 992px) {
+    .main-container{
+        padding:calc(var(--padding-primary)/2) ;
+        border-radius:calc(var(--border-radius-primary)/2) ;
+    }
+}
