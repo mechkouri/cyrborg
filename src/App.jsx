@@ -1,17 +1,22 @@
 import './App.css';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import { Home, Profile } from './Pages';
 import {  Container } from './components/index';
-import { Footer, GamingLibrary, Header, Hero , MostPopular} from './sections/index';
+import { Footer, Header} from './sections/index';
 
 function App() {
   return (
     <>
-    <Header text="new header" color="red"/>
-    <Container>
-      <Hero />
-      <MostPopular />
-      <GamingLibrary />
-    </Container>
-    <Footer />
+    <Router>
+      <Header text="new header" color="red"/>
+      <Container>
+        <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/profile' element={<Profile/>} />
+        </Routes>
+      </Container>
+      <Footer />
+    </Router>
     </>
   );
 }

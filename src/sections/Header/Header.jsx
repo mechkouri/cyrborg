@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
 import Navitem, {NavitemDropDown} from '../../components/NavItem/Navitem'
+import { Link } from 'react-router-dom' 
 import './Header.css'
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
     <>
     <nav className="navbar navbar-expand-lg navbar-dark cyborg-navbar">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         <img src={logo} alt=""/>
       </a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,19 +18,20 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <Navitem>
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <Link to ="/" className="nav-link active">Home</Link>
           </Navitem>
           <Navitem>
-            <a className="nav-link" href="#">Browse</a>
+            <Link className="nav-link" to="/profile">Browse</Link>
           </Navitem>
           <Navitem>
-            <a className="nav-link" href="#">Details</a>
+            <Link className="nav-link" to="/#">Details</Link>
+          
           </Navitem>
           <Navitem>
-          <a className="nav-link" href="#">Streams</a>
+            <Link  className="nav-link" to="/#">Streams</Link>
         </Navitem>
         <Navitem>
-        <button type="button" className="btn btn-outline-da " href="#">Profil</button>
+        <button type="button" className="btn btn-outline-da " href="/#">Profil</button>
         </Navitem>
         </ul>
         <form className="d-flex">
