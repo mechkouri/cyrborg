@@ -1,0 +1,42 @@
+.cardclip-item {
+    border-radius: 23px;
+    padding: 30px 15px;
+    background-color: #27292a;
+    margin-bottom: 30px;
+}
+.cardclip-item .thumb {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.cardclip-item  img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: calc(var(--border-radius--primary)/2);
+}
+.cardclip-item .thumb a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-23px, -23px);
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    color: #ec6090;
+}
+
+.cardclip-item h4 {
+    font-size: 15px;
+    font-weight: var(--font-weight-bold);
+    display: inline-block;
+}
+
+.cardclip-item span {
+    float: right;
+    color: #fff;
+    font-size: 14px;
+}

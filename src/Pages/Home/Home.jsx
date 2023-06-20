@@ -6,7 +6,7 @@ const Home = () => {
     <>
         <Hero />
         <MostPopular />
-        <GamingLibrary />
+        <GamingLibrary title='Most Popular' />
     </>
   )
 }

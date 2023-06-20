@@ -3,14 +3,14 @@ import { GamingLibraryCard, SectionHeader, SectionWrapper} from '../../component
 
 import GamingLibraryData from '../../Data/GamingLabraryData'
 
-const GamingLibrary = () => {
+const GamingLibrary = (props) => {
 
     const cards = GamingLibraryData.map(card => <GamingLibraryCard key={card.id} img={card.img}  title={card.title}   category={card.category}  date_added={card.date_added}  hours_played={card.hours_played}  downloaded={card.downloaded} />)
   return (
     <>
     <SectionWrapper>
        <SectionHeader>
-            Most Popular
+          {props.title}
        </SectionHeader>
         <div className="gaming-library-cards">
             {cards}

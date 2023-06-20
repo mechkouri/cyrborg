@@ -1,6 +1,6 @@
 import './MostPopular.css'
 
-import {Card, SectionHeader, SectionWrapper} from '../../components'
+import {Card, CardContainer, SectionHeader, SectionWrapper} from '../../components'
 import mostPopularData from '../../Data/MostPopularData'
 
 const MostPopular = () => {
@@ -15,11 +15,10 @@ const MostPopular = () => {
            <SectionHeader>
                 Most Popular
            </SectionHeader>
-            <div className="most-popular-items">
+           <CardContainer>
+                    {cards}
+           </CardContainer>     
                 
-               {cards}
-                
-            </div>
         </ SectionWrapper>
     </>
     )
