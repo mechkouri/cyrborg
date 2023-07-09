@@ -11,3 +11,17 @@ form .button a {
     border-radius: calc(var(--border-radius-primary)/4);
     padding: 8px 20px;
 }
+
+.btn-outline-da{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+}
+
+.btn-outline-da  .btn-text{
+    color: var(--color-light) ;
+}
+.btn-outline-da:hover, .btn-text:hover {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}

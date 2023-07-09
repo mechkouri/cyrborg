@@ -1,0 +1,12 @@
+.headercenter{
+    flex: 0 0 auto;
+    width: 100%;
+    margin: var(--margin-primary);
+}
+.headercenter h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0px;
+    font-weight: 900;
+}

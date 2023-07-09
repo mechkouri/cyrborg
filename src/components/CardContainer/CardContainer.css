@@ -4,3 +4,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 600px){
+    .cardclip-item {
+        width: 100%;
+    }
+}

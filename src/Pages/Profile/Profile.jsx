@@ -1,6 +1,6 @@
 import './Profile.css'
 import {   GamingLibrary, PopularClips, ProfileSection} from '../../sections';
-import { SectionWrapper } from '../../components';
+import { PrimaryButton, SectionWrapper } from '../../components';
 import ProfilesData from '../../Data/ProfilesData';
 
 const Profile = () => {
@@ -11,6 +11,11 @@ const Profile = () => {
         <SectionWrapper>
             <ProfileSection img={profile_1.img} status={profile_1.status} name={profile_1.name} bio={profile_1.bio} games={profile_1.games} friends={profile_1.friends} livestreams={profile_1.livestreams} clips={profile_1.clips} />
             <PopularClips />
+            <center>
+            <PrimaryButton  className="clips-btn">
+            Load More Clips
+            </PrimaryButton>
+            </center>
         </SectionWrapper>
         <GamingLibrary title='Your Gaming Library'/>
     </>

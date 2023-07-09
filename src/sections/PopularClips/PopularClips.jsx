@@ -5,7 +5,7 @@ import PopularClipsData from '../../Data/PopularClipsData'
 
 const PopularClips = () => {
 
-    const cards = PopularClipsData.map(clip => <CardClip img={clip.img} url={clip.url} title={clip.title} views={clip.views} /> )
+    const cards = PopularClipsData.map(clip => <CardClip key={clip.id} img={clip.img} url={clip.url} title={clip.title} views={clip.views} /> )
   return (
     <>
         <SectionHeader>

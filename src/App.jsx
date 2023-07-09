@@ -4,9 +4,10 @@ import './App.css';
 
 
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import { Home, Profile } from './Pages';
+import { Details, Home, Profile } from './Pages';
 import {  Container } from './components';
 import { Footer, Header} from './sections';
+
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/profile' element={<Profile/>} />
+            <Route path='/details' element={<Details/>} />
         </Routes>
       </Container>
       <Footer />
