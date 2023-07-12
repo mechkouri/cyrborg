@@ -1,0 +1,87 @@
+.live-streamm .item {
+    margin-bottom: 30px;
+  }
+  
+ .thumb {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .live-streamm .thumb img{
+    border-radius: 23px; 
+  }
+  
+  .live-streamm .thumb:hover .hover-effect {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .live-streamm .hover-effect {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+  }
+  
+
+  .live-streamm .hover-effect .live a{ 
+    position: absolute;
+    background-color: rgba(236, 96, 144, 0.9);
+    padding: 5px 10px;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 14px;
+    right: 15px;
+    top: 15px;
+  }
+  
+  .live-streamm .hover-effect ul {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .live-streamm .hover-effect ul li {
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  
+  .live-streamm .hover-effect ul li a {
+    background-color: rgba(236, 96, 144, 0.9);
+    padding: 5px 10px;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .live-streamm .avatar img {
+    margin-right: 15px;
+    border-radius: 100%;
+  }
+  
+  .live-streamm span svg {
+    color: #fff;
+    background-color: #ec6090;
+    border-radius: 50%;
+    font-size: 8px;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 3px;
+  }
+  
+  .live-streamm span {
+    font-size: 14px;
+    color: #ec6090;
+  }
+  
+  .live-streamm .down-content h4 {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 61px;
+  }

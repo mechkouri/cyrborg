@@ -3,14 +3,14 @@
     width: 100%;
 }
 
-.thumb {
+.videodetails .thumb {
     position: relative;
     max-height: 305px;
     overflow: hidden;
     border-radius: 23px;
 }
 
- .thumb a {
+.videodetails .thumb a {
     position: absolute;
     left: 50%;
     top: 50%;

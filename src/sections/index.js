@@ -7,6 +7,10 @@ export {default as PopularClips} from './PopularClips/PopularClips'
 export {default as VideoDetails} from './VideoDetails/VideoDetails'
 export {default as DetailsGame} from './DetailsGame/DetailsGame'
 export {default as RelatedGames} from './RelatedGames/RelatedGames'
+export {default as StartLive} from './StartLive/StartLive'
+export {default as PopularLive} from './PopularLive/PopularLive'
+
+
 
 
 

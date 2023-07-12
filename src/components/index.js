@@ -11,6 +11,10 @@ export {default as CardClip} from './CardClip/CardClip'
 export {default as HeaderCenter} from './HeaderCenter/HeaderCenter'
 export {default as DetailsInfo} from './DetailsInfo/DetailsInfo'
 export {default as RelatedGame} from './RelatedGame/RelatedGame'
+export {default as BoxLive} from './BoxLive/BoxLive'
+export {default as CardStream} from './CardStream/CardStream'
+
+
 
 
 

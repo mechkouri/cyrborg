@@ -21,14 +21,14 @@ const Header = () => {
             <Link to ="/" className="nav-link active">Home</Link>
           </Navitem>
           <Navitem>
-            <Link className="nav-link" to="/#">Browse</Link>
+            <Link className="nav-link" to="/browse">Browse</Link>
           </Navitem>
           <Navitem>
             <Link className="nav-link" to="/details">Details</Link>
           
           </Navitem>
           <Navitem>
-            <Link  className="nav-link" to="/#">Streams</Link>
+            <Link  className="nav-link" to="/streams">Streams</Link>
         </Navitem>
         <Navitem>
             <button type="button" className="btn btn-outline-da " > <Link className='btn-text' to="/profile">Profil</Link></button>
