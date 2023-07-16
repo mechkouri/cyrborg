@@ -8,7 +8,9 @@
 
 @media screen and (max-width: 992px) {
     .section-wrapper{
-        padding:calc(var(--padding-primary)/ 1.2) ;
+        padding:calc(var(--padding-primary)/ 2) ;
         border-radius:calc(var(--border-radius-primary)/2) ;
+        margin-top:calc(var(--margin-primary) / 2 )
+
     }
 }

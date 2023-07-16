@@ -10,3 +10,16 @@
     margin: 60px 0px;
     font-weight: 900;
 }
+
+@media screen and (max-width: 992px) {
+    .headercenter{
+        margin: calc(var(--margin-primary) / 2) auto;
+    }
+    .headercenter h2 {
+        font-size: 23px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0px 0px;
+        font-weight: 900;
+    }
+}

@@ -9,6 +9,10 @@ export {default as DetailsGame} from './DetailsGame/DetailsGame'
 export {default as RelatedGames} from './RelatedGames/RelatedGames'
 export {default as StartLive} from './StartLive/StartLive'
 export {default as PopularLive} from './PopularLive/PopularLive'
+export {default as Streamers} from './Streamers/Streamers'
+export {default as Games} from './Games/Games'
+
+
 
 
 

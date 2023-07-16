@@ -1,0 +1,19 @@
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel {
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage-outer {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+

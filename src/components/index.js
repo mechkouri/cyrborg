@@ -13,6 +13,14 @@ export {default as DetailsInfo} from './DetailsInfo/DetailsInfo'
 export {default as RelatedGame} from './RelatedGame/RelatedGame'
 export {default as BoxLive} from './BoxLive/BoxLive'
 export {default as CardStream} from './CardStream/CardStream'
+export {default as ContainerCol4} from './ContainerCol4/ContainerCol4'
+export {default as ContainerCol8} from './ContainerCol8/ContainerCol8'
+export {default as CardLiveStream} from './CardLiveStream/CardLiveStream'
+export {default as Slider} from './Slider/Slider'
+
+
+
+
 
 
 

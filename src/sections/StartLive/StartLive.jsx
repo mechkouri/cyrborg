@@ -14,7 +14,7 @@ const StartLive = ({dataLive}) => {
         {boxs}
         <center className='buttonLive'> <PrimaryButton>Go To Profile</PrimaryButton> </center>
     </div>
-    </>
+    </>  
   )
 }
 

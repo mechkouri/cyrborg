@@ -1,0 +1,68 @@
+.card-live-stream{
+    margin:0px 10px;
+}
+.card-live-stream .item .thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-live-stream  h4 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+}
+
+.card-live-stream span {
+    color: #666;
+    display: block;
+    margin-top: 7px;
+    font-weight: 400;
+}
+
+.card-live-stream ul {
+    float: right;
+    margin-top: 20px;
+}
+
+.card-live-stream li {
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-live-stream img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--border-radius-primary);
+}
+
+.card-live-stream .hover-effect {
+    position: absolute;
+    bottom: -100px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+
+.card-live-stream:hover .hover-effect {
+    opacity: 1;
+    visibility: inherit;
+    transition: all .4s;
+}
+
+.card-live-stream .hover-effect h6 {
+    background-color: rgba(31,33,34,0.95);
+    display: inline-block;
+    color: #ec6090;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+

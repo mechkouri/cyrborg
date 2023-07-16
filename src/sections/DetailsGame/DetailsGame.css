@@ -64,3 +64,17 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (max-width:760px ) {
+    .image_detail img{
+        width: 100%;
+    }
+    .text-details p{
+        text-align: center;
+    }
+    .button-details{
+        margin-top: 10px;
+        width: 100%;
+    }
+}

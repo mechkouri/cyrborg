@@ -1,0 +1,18 @@
+.containercol4{
+    border-radius: 23px;
+    background-color: #1f2122;
+    padding: 30px;
+    max-height: 567px;
+    min-height: 567px;
+    overflow-y: auto;
+}
+.containercol4::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    .containercol4{
+        margin: 10px 0px;
+    }
+}
